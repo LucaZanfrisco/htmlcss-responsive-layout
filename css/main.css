@@ -294,7 +294,7 @@ main{
 #pre-footer{
     background-color: var(--violet);
     color: white;
-    padding: 65px 0;
+    padding: 65px 35px;
     margin-top: 80px;
 }
 #pre-footer .container{
@@ -315,7 +315,7 @@ main{
 }
 #pre-footer .text{
     font-size: 1.2rem;
-    color: black;
+    color: inherit;
 }
 #pre-footer .btn-secondary{
     display: inline-block;

@@ -1,0 +1,13 @@
+footer{
+    background-color: #333333;
+    color: white;
+    padding: 44px 33px;
+}
+footer .text{
+    color: inherit;
+    margin-bottom: 75px;
+}
+footer a{
+    text-decoration: underline;
+    color: var(--violet);
+}
