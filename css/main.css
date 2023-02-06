@@ -136,11 +136,20 @@ main{
 #section-3 .box{
     background-color: var(--violet);
 }
-#section-3 img{
-    width: 212px;
-    height: 212px;
-    border-radius: 50%;
-    margin: 10px auto;
+#section-3 .circle{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px auto;
+}
+#section-3 .circle.image-1{
+    background-image: url('../img/testimonial1.jpg');
+}
+#section-3 .circle.image-2{
+    background-image: url('../img/testimonial2.jpg');
+}
+#section-3 .circle.image-3{
+    background-image: url('../img/testimonial3.jpg');
 }
 #section-3 .testimonial{
     margin: 60px 45px;
@@ -258,7 +267,7 @@ main{
 #section-5 .circle{
     background-image: url('../img/about.jpg');
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #section-5 .right-box .text{
