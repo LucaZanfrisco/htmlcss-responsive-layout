@@ -233,3 +233,60 @@ main{
     }
 }
 /* ------- */
+
+/* Sezione 5 */
+#section-5{
+    margin-top: 100px;
+}
+#section-5 .flex{
+    flex-direction: column;
+}
+#section-5 .right-box,
+#section-5 .left-box{
+    margin: 0 30px;
+}
+#section-5 .title{
+    margin-bottom: 60px;
+    color: var(--violet);
+    font-size: 3rem;
+}
+#section-5 .left-box .text{
+    line-height: 2em;
+    font-size: 1.5rem;
+    margin: 60px 0;
+}
+#section-5 .circle{
+    background-image: url('../img/about.jpg');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#section-5 .right-box .text{
+    color: var(--violet);
+    font-size: 3rem;
+    line-height: 1.1em;
+    margin-top: 10px;
+}
+#section-5 .right-box .btn{
+    background-color: var(--violet);
+    color: white;
+    padding: 9px 15px;
+    border-radius: 50px;
+    font-size: 1.3rem;
+    margin-top: 30px;
+}
+/* Main sezione 5 tablet to 768px */
+@media screen and (min-width: 768px) {
+    #section-5 .flex{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #section-5 .right-box {
+        width: 30%;
+    }
+    #section-5 .left-box{
+        width: 65%;
+    }
+    
+}
+/* ------- */
