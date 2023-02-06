@@ -290,3 +290,42 @@ main{
     
 }
 /* ------- */
+/* Pre Footer */
+#pre-footer{
+    background-color: var(--violet);
+    color: white;
+    padding: 65px 0;
+    margin-top: 80px;
+}
+#pre-footer .container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+#pre-footer .start{
+    opacity: 0.5;
+}
+#pre-footer .title{
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+#pre-footer .slogan{
+    font-size: 5rem;
+    color: #fdc15f;
+    margin: 50px 0 60px;
+}
+#pre-footer .text{
+    font-size: 1.2rem;
+    color: black;
+}
+#pre-footer .btn-secondary{
+    display: inline-block;
+    padding: 31px 80px 35px;
+    color: var(--violet);
+    margin: 35px 0;
+    font-size: 1.3rem;
+}
+#pre-footer .privacy{
+    color: white;
+    text-decoration: underline;
+}
+/* ------- */
