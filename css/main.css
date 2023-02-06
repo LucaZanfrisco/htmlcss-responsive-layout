@@ -34,8 +34,6 @@ main{
 @media screen and (min-width: 768px) {
     #section-1 .container > .flex.wrap{
         flex-direction: row;
-        margin: 0 -15px;
-        width: 100%;
     }
     #section-1 .box{
         align-items: flex-start;
