@@ -1,0 +1,14 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ------- */
+/* Variabili colore */
+:root{
+    --blue: #0066FF;
+    --light-blue: #99CCFF;
+    --violet: #6666cc;
+}
+/* ------- */
