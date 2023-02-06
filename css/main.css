@@ -127,6 +127,9 @@ main{
 /* ------- */
 
 /* Sezione 3 */
+#section-3{
+    margin-bottom: 110px;
+}
 #section-3 .flex{
     flex-direction: column;
 }
@@ -173,6 +176,60 @@ main{
     }
     #section-3 .right-box{
         text-align: left;
+    }
+}
+/* ------- */
+
+/* Sezione 4 */
+#section-4{
+    background-color: var(--violet);
+    padding-bottom: 60px;
+}
+#section-4 h2{
+    color: white;
+    font-size: 3rem;
+    padding: 75px 0;
+}
+#section-4 .flex{
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#section-4 .box{
+    background-color: white;
+    color: var(--violet);
+}
+#section-4 .box .number{
+    font-size: 4rem;
+    font-weight: bold;
+}
+#section-4 .box .title{
+    margin: 40px 0;
+}
+#section-4 .box .btn{
+    color: white;
+    background-color: var(--violet);
+    padding: 18px 50px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+/* Main sezione 4 tablet to 768px */
+@media screen and (min-width: 768px) {
+    #section-4 .flex{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 0 30px;
+    }
+    #section-4 .box{
+        width: 48%;
+        margin: 20px 0;
+    }
+}
+/* Main sezione 4 desktop to 992px */
+@media screen and (min-width: 992px) {
+    #section-4 .box{
+       width: 31%;
     }
 }
 /* ------- */
