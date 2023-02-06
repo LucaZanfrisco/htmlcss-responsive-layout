@@ -10,6 +10,7 @@
     --blue: #0066FF;
     --light-blue: #99CCFF;
     --violet: #6666cc;
+    --text-color: #666666;
 }
 /* ------- */
 /* Common */
@@ -20,17 +21,45 @@
     flex-wrap: wrap;
 }
 .space-between{
-    justify-content: space-between
+    justify-content: space-between;
 }
 .list-deco{
     list-style: none;
 }
 .btn{
     color: white;
+    display: inline-block;
 }
 .container{
     max-width: 1140px;
     margin: 0 auto;
+}
+.box{
+    padding: 40px 30px;
+    background-color: var(--light-blue);
+    margin: 30px 40px;
+    border-radius: 50px;
+}
+.text-center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    font-size: 2rem;
+}
+.text{
+    color: var(--text-color);
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+.icon{
+    font-size: 6rem;
+    color: var(--blue);
+}
+img{
+    display: block;
 }
 /* ------- */
 
