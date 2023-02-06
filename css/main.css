@@ -65,4 +65,63 @@ main{
 /* Sezione 2 */
 #section-2{
     background-color: var(--violet);
+    padding: 70px 34px;
+    color: white;
+    margin-top: 105px;
 }
+#section-2 .flex {
+    flex-direction: column;
+}
+#section-2 img{
+    width: 100%;
+}
+#section-2 .title{
+    font-size: 3rem;
+    margin: 40px 0;
+}
+#section-2 .left-box .text{
+    color: white;
+    line-height: 1.5em;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+#section-2 .right-box{
+    background-color: white;
+    border-radius: 50px;
+    color: black;
+    padding: 33px 45px ;
+}
+#section-2 .right-box .title{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+#section-2 .btn{
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 40px;
+    background-color: var(--violet);
+    padding: 20px;
+    border-radius: 50%;
+}
+/* Main sezione 2 desktop to 992px */
+@media  screen and (min-width: 992px) {
+    #section-2 .flex{
+        flex-direction: row;
+    }
+    #section-2 .left-box,
+    #section-2 .right-box{
+        width: 50%;
+    }
+    #section-2 .left-box,
+    #section-2 .right-box{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #section-2 .left-box{
+        align-items: flex-end;
+    }
+    #section-2 .right-box{
+        align-self: flex-end;
+    }
+}
+/* ------- */
