@@ -1,0 +1,38 @@
+header{
+    background-color: var(--blue);
+    padding: 15px 30px 25px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+header .flex{
+    align-items: center;
+}
+header .hamburger{
+    font-size: 2rem;
+    color: white;
+}
+header nav{
+    display: none;
+}
+header nav ul li{
+    padding: 0 15px;
+    color: white;
+}
+.btn-secondary{
+    color: black;
+    padding: 13px 11px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+@media screen and (min-width: 992px){
+    header nav{
+        display: block;
+    }
+    header .hamburger{
+        display: none;
+    }
+}

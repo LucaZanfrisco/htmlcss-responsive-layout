@@ -12,3 +12,27 @@
     --violet: #6666cc;
 }
 /* ------- */
+/* Common */
+.flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.space-between{
+    justify-content: space-between
+}
+.list-deco{
+    list-style: none;
+}
+.btn{
+    color: white;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* ------- */
+
+/* Import css */
+/* @import "../css/header.css"; */
