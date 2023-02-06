@@ -125,3 +125,54 @@ main{
     }
 }
 /* ------- */
+
+/* Sezione 3 */
+#section-3 .flex{
+    flex-direction: column;
+}
+#section-3 .box{
+    background-color: var(--violet);
+}
+#section-3 img{
+    width: 212px;
+    height: 212px;
+    border-radius: 50%;
+    margin: 10px auto;
+}
+#section-3 .testimonial{
+    margin: 60px 45px;
+}
+#section-3 .testimonial .title{
+    margin: 40px 0 50px;
+    color: var(--violet);
+    font-size: 3rem;
+}
+#section-3 .testimonial .text{
+    font-size: 1.5rem;
+}
+#section-3 .right-box{
+    color: white;
+}
+#section-3 .right-box .text{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 37px;
+}
+#section-3 .right-box .name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+/* Main sezione 3 tablet to 768px */
+@media screen and (min-width: 768px) {
+    #section-3 .box.flex{
+        flex-direction: row;
+    }
+    #section-3 .right-box{
+        align-self: center;
+        margin-left: 50px;
+    }
+    #section-3 .right-box{
+        text-align: left;
+    }
+}
+/* ------- */
