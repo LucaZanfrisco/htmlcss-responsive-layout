@@ -4,7 +4,6 @@ main{
 /* Sezione 1 */
 #section-1 .flex{
     flex-direction: column;
-    align-items: flex-end;
 }
 #section-1 .box:first-child{
     padding-bottom: 0;
@@ -58,6 +57,12 @@ main{
 @media  screen and (min-width: 992px) {
     #section-1 .box{
         flex-direction: row;
+        align-items: flex-end;
     }
 }
 /* ------- */
+
+/* Sezione 2 */
+#section-2{
+    background-color: var(--violet);
+}
